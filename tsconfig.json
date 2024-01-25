@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "ESNext",
+    "moduleResolution": "Node10",
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "target": "esnext",
+    "rootDir": ".",
+    "types": ["node"],
+    "paths": {
+      "@dysonjs/*": [
+        "packages/*",
+        "node_modules/@dysonjs/*",
+      ]
+    }
+  }
+}
